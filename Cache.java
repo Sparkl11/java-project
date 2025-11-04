@@ -31,8 +31,12 @@ public class Cache<T> {
     public boolean exists(T item) {
         return items.contains(item);
     }
-
+    
     public T getFirst() {
         return items.isEmpty() ? null : items.getFirst();
+    }
+    
+    public T getLast() {
+        return items.isEmpty() ? null : items.getLast();
     }
 }
