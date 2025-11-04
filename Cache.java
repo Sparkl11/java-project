@@ -11,6 +11,7 @@ public class Cache<T> {
         this.maxSize = maxSize;
         this.items = new LinkedList<>();
     }
+    
     public void add(T item) {
         if (item == null) {
             throw new IllegalArgumentException("Item cannot be null");
@@ -21,5 +22,9 @@ public class Cache<T> {
         if (items.size() > maxSize) {
             items.removeFirst();
         }
+    }
+    
+    public boolean remove(T item) {
+        return items.remove(item);
     }
 }
