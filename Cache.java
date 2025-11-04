@@ -39,4 +39,11 @@ public class Cache<T> {
     public T getLast() {
         return items.isEmpty() ? null : items.getLast();
     }
+    
+    public T getItemByIndex(int i) {
+        if (i < 0 || i >= items.size()) {
+            return null;
+        }
+        return items.get(i);
+    }
 }
