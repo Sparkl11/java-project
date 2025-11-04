@@ -1,0 +1,41 @@
+[33mcommit 5d78011628fcf81fee95d5eb60785d5c0345a3d6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/collection[m[33m)[m
+Author: admin <admin@localhost.localdomain>
+Date:   Wed Nov 5 02:55:15 2025 +0700
+
+    создали дженерик кэш с конструктором
+
+[33mcommit bf61fe237f150809840318f792dcf3f4863106fc[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: a6d4b8a 87c964b
+Author: Буринов Ярослав Александрович ИП-517 <burinovaroslav@gmail.com>
+Date:   Wed Oct 29 00:49:58 2025 +0700
+
+    Merge pull request #2 from Sparkl11/feature/car
+    
+    Создан класс main с массивоом машин и добавлен метод найти машину по бренду и добавлен метод, чтобы найти машину по брендам и году эксплатации
+
+[33mcommit 87c964b50fc43ac23d91379b990078d6ca528006[m[33m ([m[1;31morigin/feature/car[m[33m)[m
+Author: Sparkl11 <arikburinov@gmail.com>
+Date:   Wed Oct 29 00:48:18 2025 +0700
+
+    Создан класс main с массивоом машин и добавлен метод найти машину по бренду и добавлен метод, чтобы найти машину по брендам и году эксплатации
+
+[33mcommit a6d4b8a2da200b09034f9c3bacfe0ad08152d445[m
+Merge: d73f1b2 6f61c97
+Author: Буринов Ярослав Александрович ИП-517 <burinovaroslav@gmail.com>
+Date:   Wed Oct 29 00:21:40 2025 +0700
+
+    Merge pull request #1 from Sparkl11/feature/car
+    
+    Добавлен класс Car
+
+[33mcommit 6f61c970d296eb19bf44605e5aa110c9ee52ba0e[m
+Author: admin <admin@localhost.localdomain>
+Date:   Wed Oct 29 00:18:22 2025 +0700
+
+    Добавлен класс Car
+
+[33mcommit d73f1b287d3e582b19ece96865c275fea012a299[m
+Author: admin <admin@localhost.localdomain>
+Date:   Tue Oct 28 23:09:00 2025 +0700
+
+    Initial commit
